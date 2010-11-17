@@ -1,0 +1,9 @@
+; $Id$
+name = "Context Geo IP"
+dependencies[] = "context"
+dependencies[] = "geoip"
+description = "User's IP as a Context condition."
+package = "Context"
+core = "6.x"
+
+
