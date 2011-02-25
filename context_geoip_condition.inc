@@ -1,5 +1,4 @@
 <?php
-// $Id$
 
 /**
  * User's Geo IP as a Context condition.
