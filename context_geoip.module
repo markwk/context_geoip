@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 
+ *
  * Make module compatible with context 3
  * implement hook_ctools_plugin_api().
  */
