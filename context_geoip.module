@@ -3,7 +3,7 @@
 /**
  *
  * Make module compatible with context 3
- * implement hook_ctools_plugin_api().
+ * Implements hook_ctools_plugin_api().
  */
 function context_geoip_ctools_plugin_api($module, $api) {
   if ($module == 'context' && $api == 'plugins') {
@@ -12,7 +12,7 @@ function context_geoip_ctools_plugin_api($module, $api) {
 }
 
 /**
- * Implementation of hook_context_registry().
+ * Implements hook_context_registry().
  */
 function context_geoip_context_registry() {
   $registry = array();
@@ -26,7 +26,7 @@ function context_geoip_context_registry() {
 }
 
 /**
- * Implementation of hook_context_plugins().
+ * Implements hook_context_plugins().
  */
 function context_geoip_context_plugins() {
   $plugins = array();
@@ -43,7 +43,7 @@ function context_geoip_context_plugins() {
 
 
 /**
- * Implementation of hook_context_page_reaction()
+ * Implements hook_context_page_reaction().
  */
 function context_geoip_context_page_condition() {
   if ($plugin = context_get_plugin('condition', 'geoip')) {

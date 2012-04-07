@@ -3,6 +3,6 @@ dependencies[] = "context"
 dependencies[] = "geoip"
 description = "User's IP as a Context condition."
 package = "Context"
-core = "6.x"
+core = 7.x
 
-
+files[] = context_geoip_condition.inc
